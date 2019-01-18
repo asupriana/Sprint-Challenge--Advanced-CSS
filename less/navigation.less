@@ -8,6 +8,11 @@ nav {
     background: @nav-bg;
     color: @nav-font;
     border: 1px solid @nav-border;
+    @media @phone {
+        width: 100%;
+        font-size: 4.5rem;
+        padding-left: 17%;
+    }
 
     h1 {
         width: 100%;
@@ -19,6 +24,9 @@ nav {
     .navigation {
         font-size: 3rem;
         padding-bottom: 15px;
+        @media @phone {
+            font-size: 1.6rem;
+        }
 
         a {
             padding: 0 15px;
