@@ -1,9 +1,13 @@
 // Mixins Here
-.btn-size(@height: 5px, @width: 10px) {
-    padding: @height @width;
+.cust-flex(@direction, @justify, @align){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
 }
 
-.btn-color(@bg-color: @ebony-clay, @font-color: white) {
-    background-color: @bg-color;
-    color: @font-color;
+.center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
