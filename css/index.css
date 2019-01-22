@@ -162,7 +162,6 @@ p {
 }
 nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   width: 100%;
@@ -177,13 +176,12 @@ nav {
     font-size: 1.6rem;
     width: 100%;
     font-size: 4.5rem;
-    padding-left: 17%;
   }
 }
 nav a {
-  width: 95%;
-  padding: 0 15px;
+  width: 50%;
   text-align: center;
+  word-spacing: 2px;
   text-decoration: none;
   color: #454A59;
   font-size: 16px;
@@ -191,6 +189,7 @@ nav a {
 h1 {
   width: 100%;
   font-size: 5rem;
+  padding-top: 10px;
   text-align: center;
   background: #F6F6F6;
 }
